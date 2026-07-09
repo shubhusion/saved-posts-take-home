@@ -1,0 +1,16 @@
+{
+  "name": "saved-posts-monorepo",
+  "private": true,
+  "workspaces": ["server", "web"],
+  "scripts": {
+    "db:up": "docker compose up -d",
+    "db:migrate": "bun run --cwd server db:migrate",
+    "db:seed": "bun run --cwd server db:seed",
+    "dev:server": "bun run --cwd server dev",
+    "dev:web": "bun run --cwd web dev",
+    "test": "bun run --cwd server test",
+    "local:db:migrate": "USE_PGLITE=1 bun run --cwd server db:migrate",
+    "local:db:seed": "USE_PGLITE=1 bun run --cwd server db:seed",
+    "local:dev:server": "USE_PGLITE=1 bun run --cwd server dev"
+  }
+}

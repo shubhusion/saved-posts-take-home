@@ -1,0 +1,45 @@
+{
+  "app": {
+    "title": "Course Forum",
+    "metaTitle": "Course Forum — Saved Posts",
+    "metaDescription": "Discussion feed with bookmarking for course forums.",
+    "tagline": "Discussions across your courses",
+    "feedTab": "Feed",
+    "savedTab": "Saved",
+    "viewingAs": "Viewing as",
+    "selectUser": "Select a user…",
+    "language": "Language",
+    "locales": {
+      "en": "EN",
+      "hi": "हिं"
+    }
+  },
+  "feed": {
+    "courseLabel": "Course",
+    "empty": "No posts in this course yet.",
+    "loading": "Loading posts…",
+    "by": "by {name}",
+    "pageOf": "Page {page} of {total}",
+    "next": "Next",
+    "previous": "Previous",
+    "forbidden": "You are not enrolled in this course."
+  },
+  "post": {
+    "save": "Save",
+    "saved": "Saved",
+    "savesCount": "{count, plural, one {# save} other {# saves}}",
+    "remove": "Remove post",
+    "savedAt": "Saved {date}"
+  },
+  "savedList": {
+    "title": "Your saved posts",
+    "loading": "Loading saved posts…",
+    "emptyTitle": "Nothing saved yet",
+    "emptyBody": "Tap the bookmark on any post in the feed and it will be waiting for you here.",
+    "goToFeed": "Browse the feed"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "dismiss": "Dismiss"
+  }
+}
